@@ -1,0 +1,33 @@
+body{
+    background-color: grey;
+}
+div{position: relative;
+    margin: auto;
+    height: 2cm;
+
+}
+.triangle{
+    width:0;
+    height:0;
+    border-left:250px solid transparent;
+    border-right:250px solid transparent;
+    border-bottom: 200px solid red; 
+    position:relative;
+    border-color: ;
+}
+.one{
+    border-bottom-color:green;
+    top: 150px;
+    
+  }
+  .two{
+    border-bottom-color: yellow;
+    top:-130px
+      
+  }
+  .third{
+    top:-400px;
+  }
+  .fixed{
+      position: fixed;
+  }
